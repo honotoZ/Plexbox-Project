@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    border: 2px solid black;
+    background: linear-gradient(to bottom right,rgba(84, 13, 2, 0.87), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+.myContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+    margin: 4px;
+    border-radius: 0.3em;
+    background-color: rgba(0, 0, 0, 0.585);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.logoImg{
+    width: 39px;
+}
+.icon input{
+    width: 27em;
+    height: 2.7em;
+    font-size: 8px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgba(76, 60, 60, 0.521);
+}
+.icon input::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    background-image: url("/Users/newuser/plexbox/src/assets/magnifying-glass-1976105_1280-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 12px 11px;
+    background-position: left center;
+    padding-left: 17px;
+}
+.icon input:focus{
+    outline: none;
+    background-color: white;
+}
+.listItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26em;
+    height: 2em;
+    list-style-type: none;
+    font-size: 8.6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.799);
+    cursor: pointer;
+    position: relative;
+    left: 90px;
+}
+.lastNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8em;
+    height: 2em;
+}
+.lineIcon{
+    width: 0.8px;
+    height: 17px;
+    background-color: rgba(255, 255, 255, 0.173);
+    margin: 0 5px;
+}
+.lastNav button{
+    border: none;
+    width: 7em;
+    height: 2em;
+    font-size: 8px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgb(248, 145, 20);
+    cursor: pointer;
+}
+.customDropdown{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.customDropdown .downarrow{
+    display: flex;
+    align-items: center;
+}
+.profileImage{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(180, 122, 86);
+    cursor: pointer;
+}
+.pageHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    gap: 10px;
+}
+.firstSection h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(187, 24, 81);
+    margin-top: 12px;
+    padding: 5px;
+}
+.firstSection p{
+    font-size: 11px;
+    font-family: arial;
+    color: white;
+    padding-left: 41px;
+    width: 40em;
+    line-height: 1.5;
+}
+.firstSection button{
+    border: none;
+    border-radius: 15px;
+    width: 12em;
+    padding: 9px;
+    margin-top: 12px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(234, 195, 42);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.firstSection button:hover{
+    transform: scale(0.95);
+}
+
+/* carousel */
+.carousel-container{
+    margin-top: 30px;
+    width: 40em;
+}
+.top-bar{
+    padding: 5px;
+    margin: 15px;
+}
+.carousel-navItems{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+}
+.carousel-navItems span{
+    cursor: pointer;
+}
+.carousel-navItems span:hover{
+    color: rgb(222, 174, 41);
+}
+.carousel1{
+    background: linear-gradient(to bottom right, rgba(86, 18, 123, 1), rgba(86, 18, 123, 0.8), rgba(222, 29, 8, 0.688),  rgba(222, 29, 8, 0.8));
+    border-radius: 13px;
+}
+.carousel2{
+    background: linear-gradient(to right, rgb(204, 19, 87));
+    border-radius: 13px;
+}
+.carousel3{
+    background: linear-gradient(to bottom right, rgba(86, 18, 123, 1), rgba(86, 18, 123, 0.8), rgba(222, 29, 8, 0.688),  rgba(222, 29, 8, 0.8));
+    border-radius: 13px;
+}
+.slider1 h3{
+    font-size: 20px;
+}
+.slider1 p{
+    font-size: 11px;
+}
+.slider1 button{
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 10em;
+    height: 3em;
+}
+.slider2 h3{
+    font-size: 20px;
+}
+.slider2 p{
+    font-size: 11px;
+}
+.slider2 button{
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 10em;
+    height: 3em;
+}
+.slider3 h3{
+    font-size: 20px;
+}
+.slider3 p{
+    font-size: 11px;
+}
+.slider3 button{
+    border: none;
+    border-radius: 22px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    width: 15em;
+    height: 3em;
+}
