@@ -25,18 +25,20 @@ function Header() {
                             <span>Your Music</span>
                         </div>
                     </div>
-                        <Carousel>
-                            <Carousel.Item className='carousel1'>
+                    <Carousel className='carousel-box'>
+                        {/* first slide */}
+                        <Carousel.Item>
+                            <div className="carousel1">
                                 <ExampleCarouselImage 
                                 text="First slide" 
                                 img={"src/assets/Images/Slider1/slider1.webp"}
                                 style={{
-                                    width:'auto',
-                                    height:'21em',
-                                    borderRadius:'20px',
+                                    borderRadius:'13px',
+                                    width:'32rem',
+                                    height:'28rem',
                                     position:'relative',
-                                    left:"150px",
-                                    top:"50px"
+                                    left:"15rem",
+                                    top:"4rem"
                                 }}
                                 />
                                 <Carousel.Caption className='slider1'>
@@ -44,43 +46,56 @@ function Header() {
                                 <p>Finding what to watch next is better when you do it together. Search for and add friends, share, comment and more using Discover on Plex.</p>
                                 <button>Learn More</button>
                                 </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item className='carousel2'>
-                                <ExampleCarouselImage 
-                                text="Second slide" 
-                                img={"src/assets/Images/Slider2/slider2.webp"}
-                                style={{
-                                    width:'40em',
-                                    height:'22em',
-                                    borderRadius:'15px',
-                                }}
-                                />
-                                <Carousel.Caption className='slider2'>
-                                <h3>What we're watching now.</h3>
-                                <p>this is just a peek. Choose from thousands of free ad-supported titles from our on-demand library.</p>
-                                <button>See What's On</button>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                            <Carousel.Item className='carousel3'>
-                                <ExampleCarouselImage 
-                                text="Third slide" 
-                                img={"src/assets/Images/Slider4/slider4.webp"}
-                                style={{
-                                    width:'auto',
-                                    height:'22em',
-                                    borderRadius:'20px',
-                                    position:'relative',
-                                    left:"100px",
-                                    top:"30px"
-                                }}
-                                />
-                                <Carousel.Caption className='slider3'>
-                                <h3>Bring your media to the pro side.</h3>
-                                <p>There's a lot of option's out there for storing your media. But if your looking to organize, stream, and share it in the most beautiful way possible, Plex is your app.</p>
-                                <button>Get Plex Media Server</button>
-                                </Carousel.Caption>
-                            </Carousel.Item>
-                        </Carousel>
+                            </div>
+                        </Carousel.Item>
+                        {/* second slide */}
+                        <Carousel.Item className='carousel2'>
+                            <ExampleCarouselImage 
+                            text="Second slide" 
+                            img={"src/assets/Images/Slider2/slider2.webp"}
+                            style={{
+                                borderRadius:'13px',
+                                width:'70rem',
+                                height:'34.5rem',
+                                position:'relative',
+                                bottom:'0.4rem',
+                                right:'3.3rem'
+                            }}
+                            />
+                            <Carousel.Caption className='slider2'>
+                            <h3>What we're watching now.</h3>
+                            <p>this is just a peek. Choose from thousands of free ad-supported titles from our on-demand library.</p>
+                            <button>See What's On</button>
+                            </Carousel.Caption>
+                            <Carousel.Caption className='slider2A'>
+                                <img src="src/assets/Images/Slider2/slider2-1.webp" alt="" />
+                                <img src="src/assets/Images/Slider2/slider2-2.avif" alt="" />
+                                <img src="src/assets/Images/Slider2/slider2-3.avif" alt="" />
+                                <img src="src/assets/Images/Slider2/slider2-4.avif" alt="" />
+                                <img src="src/assets/Images/Slider2/slider2-5.avif" alt="" />
+                                <img src="src/assets/Images/Slider2/slider2-6.avif" alt="" />
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        {/* third item */}
+                        <Carousel.Item className='carousel3'>
+                            <ExampleCarouselImage 
+                            text="Third slide" 
+                            img={"src/assets/Images/Slider4/slider4.webp"}
+                            style={{
+                                width:'32rem',
+                                height:'30rem',
+                                position:'relative',
+                                left:"14rem",
+                                top:"2rem"
+                            }}
+                            />
+                            <Carousel.Caption className='slider3'>
+                            <h3>Bring your media to the pro side.</h3>
+                            <p>There's a lot of option's out there for storing your media. But if your looking to organize, stream, and share it in the most beautiful way possible, Plex is your app.</p>
+                            <button>Get Plex Media Server</button>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                    </Carousel>
                 </div>
             </div>
         </>

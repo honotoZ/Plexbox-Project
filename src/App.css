@@ -5,45 +5,44 @@
 }
 body{
     min-height: 100vh;
-    border: 2px solid black;
     background: linear-gradient(to bottom right,rgba(84, 13, 2, 0.87), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 .myContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2em;
-    margin: 4px;
-    border-radius: 0.3em;
+    height: 3.3rem;
+    margin: 0.4rem;
+    border-radius: 0.3rem;
     background-color: rgba(0, 0, 0, 0.585);
 }
 .icon{
     display: flex;
     align-items: center;
-    margin-left: 8px;
+    margin-left: 0.5rem;
     cursor: pointer;
 }
 .logoImg{
-    width: 39px;
+    width: 4.3rem;
 }
 .icon input{
-    width: 27em;
-    height: 2.7em;
-    font-size: 8px;
+    width: 27rem;
+    height: 2.5rem;
+    font-size: 1rem;
     border: none;
-    border-radius: 15px;
-    margin-left: 5px;
+    border-radius: 3rem;
+    margin-left: 1rem;
     padding: 5px;
     background-color: rgba(76, 60, 60, 0.521);
 }
 .icon input::placeholder{
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.961);
     opacity: 0.6;
-    background-image: url("/Users/newuser/plexbox/src/assets/magnifying-glass-1976105_1280-removebg-preview.png");
+    background-image: url("src/assets/magnifying-glass-1976105_1280-removebg-preview.png");
     background-repeat: no-repeat;
-    background-size: 12px 11px;
+    background-size: 22px 23px;
     background-position: left center;
-    padding-left: 17px;
+    padding-left: 1.9rem;
 }
 .icon input:focus{
     outline: none;
@@ -53,34 +52,37 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 26em;
-    height: 2em;
+    width: 27rem;
+    height: 3rem;
     list-style-type: none;
-    font-size: 8.6px;
+    font-size: 0.9rem;
+    font-weight: 570;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.799);
     cursor: pointer;
     position: relative;
-    left: 90px;
+    left: 7rem;
+    /* border: 2px solid red; */
 }
 .lastNav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 8em;
-    height: 2em;
+    width: 13rem;
+    height: 3rem;
+    /* border: 2px solid green; */
 }
 .lineIcon{
-    width: 0.8px;
-    height: 17px;
+    width: 1px;
+    height: 2rem;
     background-color: rgba(255, 255, 255, 0.173);
     margin: 0 5px;
 }
 .lastNav button{
     border: none;
-    width: 7em;
-    height: 2em;
-    font-size: 8px;
+    width: 6rem;
+    height: 2rem;
+    font-size: 0.9rem;
     font-weight: 600;
     border-radius: 4px;
     background-color: rgb(248, 145, 20);
@@ -94,10 +96,11 @@ body{
 .customDropdown .downarrow{
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
 }
 .profileImage{
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: rgb(180, 122, 86);
     cursor: pointer;
@@ -109,31 +112,37 @@ body{
     text-align: center;
     padding: 10px;
     height: 100vh;
-    gap: 10px;
+}
+.firstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .firstSection h2{
-    font-size: 40px;
+    font-size: 4.3rem;
     font-weight: bolder;
     font-family: Helvetica, Arial, sans-serif;
     color: rgb(187, 24, 81);
-    margin-top: 12px;
-    padding: 5px;
+    margin-top: 4rem;
+    padding: 10px;
+    /* border: 2px solid green; */
 }
 .firstSection p{
-    font-size: 11px;
+    font-size: 1.1rem;
     font-family: arial;
     color: white;
-    padding-left: 41px;
-    width: 40em;
+    padding: 10px;
+    width: 44rem;
     line-height: 1.5;
+    /* border: 2px solid red; */
 }
 .firstSection button{
     border: none;
-    border-radius: 15px;
-    width: 12em;
-    padding: 9px;
-    margin-top: 12px;
-    font-size: 10px;
+    border-radius: 2rem;
+    width: 12rem;
+    padding: 10px;
+    font-size: 1rem;
     font-weight: bold;
     background-color: rgb(234, 195, 42);
     cursor: pointer;
@@ -143,21 +152,25 @@ body{
     transform: scale(0.95);
 }
 
-/* carousel */
+/* Carousel Header */
 .carousel-container{
-    margin-top: 30px;
-    width: 40em;
+    margin-top: 4rem;
+    width: 67rem;
+    height: auto;
+    border-radius: 13px;
+    /* border: 2px solid green; */
 }
 .top-bar{
     padding: 5px;
-    margin: 15px;
+    margin: 5px;
 }
 .carousel-navItems{
     display: flex;
-    gap: 20px;
+    gap: 27px;
     color: white;
-    font-size: 9px;
+    font-size: 1rem;
     font-weight: bold;
+    padding: 15px;
 }
 .carousel-navItems span{
     cursor: pointer;
@@ -165,60 +178,128 @@ body{
 .carousel-navItems span:hover{
     color: rgb(222, 174, 41);
 }
-.carousel1{
-    background: linear-gradient(to bottom right, rgba(86, 18, 123, 1), rgba(86, 18, 123, 0.8), rgba(222, 29, 8, 0.688),  rgba(222, 29, 8, 0.8));
+
+/* Carousel Slides */
+.carousel-box{
     border-radius: 13px;
+    position: relative;
+    height: 34rem;
+    overflow: hidden;
+}
+.carousel1{
+    background: linear-gradient(to bottom right, rgba(86, 18, 123, 1), rgba(86, 18, 123, 0.9), rgba(222, 29, 8, 0.688),  rgba(222, 29, 8, 0.9));
+    border-radius: 13px;
+    padding: 5px;
+    min-height: 34rem;
 }
 .carousel2{
-    background: linear-gradient(to right, rgb(204, 19, 87));
+    background: linear-gradient(to right, rgb(221, 22, 95));
     border-radius: 13px;
+    padding: 5px;
+    min-height: 34rem;
 }
 .carousel3{
-    background: linear-gradient(to bottom right, rgba(86, 18, 123, 1), rgba(86, 18, 123, 0.8), rgba(222, 29, 8, 0.688),  rgba(222, 29, 8, 0.8));
+    background: 
+        linear-gradient(to top right, rgba(35, 151, 218, 1), rgba(228, 183, 21, 0.9)),
+        linear-gradient(to bottom right, rgba(128, 0, 128, 0.935), rgba(35, 151, 218, 1));
     border-radius: 13px;
+    padding: 5px;
+    min-height: 34rem;
+}
+.slider1{
+    width: 29rem;
+    height: 20rem;
+    position: absolute;
+    left:3rem;
+    top: 10rem;
 }
 .slider1 h3{
-    font-size: 20px;
+    font-size: 2.5rem;
+    text-align: justify;
 }
 .slider1 p{
-    font-size: 11px;
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 1.5rem;
 }
 .slider1 button{
     border: none;
-    border-radius: 22px;
-    padding: 8px;
-    font-size: 10px;
+    border-radius: 4rem;
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
-    width: 10em;
-    height: 3em;
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    right: 9.4rem;
+}
+.slider2{
+    width: 29rem;
+    height: 20rem;
+    position: absolute;
+    top: 4rem;
+    left: 3rem;
 }
 .slider2 h3{
-    font-size: 20px;
+    font-size: 2.4rem;
+    text-align: justify;
 }
 .slider2 p{
-    font-size: 11px;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 1.9rem;
 }
 .slider2 button{
     border: none;
-    border-radius: 22px;
-    padding: 8px;
-    font-size: 10px;
+    border-radius: 3rem;
+    padding: 6px;
+    font-size: 0.9rem;
     font-weight: bold;
-    width: 10em;
-    height: 3em;
+    width: 10rem;
+    height: 3.2em;
+    position: relative;
+    right: 9.5rem;
+}
+.slider2A{
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    gap: 5px;
+    height: 15rem;
+    width: 60.5rem;
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+}
+.slider2A img{
+    width: 9rem;
+    height: 13rem;
+    border-radius: 9px;
+}
+.slider3{
+    width: 29rem;
+    height: 19rem;
+    position: absolute;
+    left:2.5rem;
+    top: 10rem;
 }
 .slider3 h3{
-    font-size: 20px;
+    font-size: 2.5rem;
+    text-align: justify;
 }
 .slider3 p{
-    font-size: 11px;
+    font-size: 1rem;
+    text-align: justify;
 }
 .slider3 button{
     border: none;
-    border-radius: 22px;
-    padding: 8px;
-    font-size: 10px;
-    font-weight: bold;
-    width: 15em;
-    height: 3em;
+    border-radius: 3rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 15rem;
+    height: 3rem;
+    position: relative;
+    right: 7rem;
 }
