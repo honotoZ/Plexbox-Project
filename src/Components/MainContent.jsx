@@ -1,0 +1,91 @@
+import React from 'react'
+import { ImAndroid } from "react-icons/im";
+import { FaApple } from "react-icons/fa";
+import { SiRoku } from "react-icons/si";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+
+function MainContent() {
+
+    return (
+        <>
+            <div className='mainbody-container'>
+                <div className='appstore'>
+                    <div className='appstore1'>
+                        <div className='appstoreA'>
+                            <ImAndroid className='android'/>
+                            <span>App Store</span>
+                        </div>
+                        <div className='appstoreB'>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStarHalfAlt className='halfstar'/>
+                        </div>
+                        <div className='appstoreC'>
+                            <span>4.4/5</span>
+                        </div>
+                        <div className='appstoreD'>
+                            <span>329,603 ratings</span>
+                        </div>
+                    </div>
+                    <div className='appstore2'>
+                        <div className='appstoreAA'>
+                            <FaApple className='apple'/>
+                            <span>App Store</span>
+                        </div>
+                        <div className='appstoreBB'>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStarHalfAlt className='halfstar'/>
+                        </div>
+                        <div className='appstoreCC'>
+                            <span>4.7/5</span>
+                        </div>
+                        <div className='appstoreDD'>
+                            <span>105,183 ratings</span>
+                        </div>
+                    </div>
+                    <div className='appstore3'>
+                        <div className='appstoreAAA'>
+                            <SiRoku className='roku'/>
+                            <span>App Store</span>
+                        </div>
+                        <div className='appstoreBBB'>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStar className='star'/>
+                            <FaStarHalfAlt className='halfstar'/>
+                        </div>
+                        <div className='appstoreCCC'>
+                            <span>4/5</span>
+                        </div>
+                        <div className='appstoreDDD'>
+                            <span>143,174 ratings</span>
+                        </div>
+                    </div>
+                    <div className='appstore4'>
+                        <div className='appstoreAAAA'>
+                            <span>Download Now</span>
+                        </div>
+                        <img src="src/assets/Google_Play_Store_badge_EN.svg.webp" alt="" />
+                        <img src="src/assets/Download_on_the_App_Store_Badge.svg.webp" alt="" />
+                    </div>
+                </div>
+                <div className='save'>
+
+                </div>
+                <div className="watch">
+
+                </div>
+                <div className="explore">
+
+                </div>
+            </div>
+        </>
+    )
+}
+export default MainContent
