@@ -2,7 +2,9 @@ import React from 'react'
 import { ImAndroid } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
 import { SiRoku } from "react-icons/si";
-import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import googlePlayBadge from '../assets/Google_Play_Store_badge_EN.svg.webp';
+import appStoreBadge from '../assets/Download_on_the_App_Store_Badge.svg.webp';
 
 function MainContent() {
 
@@ -71,8 +73,8 @@ function MainContent() {
                         <div className='appstoreAAAA'>
                             <span>Download Now</span>
                         </div>
-                        <img src="src/assets/Google_Play_Store_badge_EN.svg.webp" alt="" />
-                        <img src="src/assets/Download_on_the_App_Store_Badge.svg.webp" alt="" />
+                        <img src={googlePlayBadge} alt="google play" />
+                        <img src={appStoreBadge} alt="apple store" />
                     </div>
                 </div>
                 <div className='save'>

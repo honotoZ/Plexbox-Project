@@ -1,6 +1,14 @@
-import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './ExampleCarouselImage';
+import firstSlide from '../assets/Images/Slider1/slider1.webp'
+import secondSlide from '../assets/Images/Slider2/slider2.webp'
+import secondSlide1 from '../assets/Images/Slider2/slider2-1.webp'
+import secondSlide2 from '../assets/Images/Slider2/slider2-2.avif'
+import secondSlide3 from '../assets/Images/Slider2/slider2-3.avif'
+import secondSlide4 from '../assets/Images/Slider2/slider2-4.avif'
+import secondSlide5 from '../assets/Images/Slider2/slider2-5.avif'
+import secondSlide6 from '../assets/Images/Slider2/slider2-6.avif'
+import thirdSlide from '../assets/Images/Slider4/slider4.webp'
 
 function Header() {
     
@@ -31,7 +39,7 @@ function Header() {
                             <div className="carousel1">
                                 <ExampleCarouselImage 
                                 text="First slide" 
-                                img={"src/assets/Images/Slider1/slider1.webp"}
+                                img={firstSlide}
                                 style={{
                                     borderRadius:'13px',
                                     width:'32rem',
@@ -52,7 +60,7 @@ function Header() {
                         <Carousel.Item className='carousel2'>
                             <ExampleCarouselImage 
                             text="Second slide" 
-                            img={"src/assets/Images/Slider2/slider2.webp"}
+                            img={secondSlide}
                             style={{
                                 borderRadius:'13px',
                                 width:'70rem',
@@ -68,19 +76,19 @@ function Header() {
                             <button>See What's On</button>
                             </Carousel.Caption>
                             <Carousel.Caption className='slider2A'>
-                                <img src="src/assets/Images/Slider2/slider2-1.webp" alt="" />
-                                <img src="src/assets/Images/Slider2/slider2-2.avif" alt="" />
-                                <img src="src/assets/Images/Slider2/slider2-3.avif" alt="" />
-                                <img src="src/assets/Images/Slider2/slider2-4.avif" alt="" />
-                                <img src="src/assets/Images/Slider2/slider2-5.avif" alt="" />
-                                <img src="src/assets/Images/Slider2/slider2-6.avif" alt="" />
+                                <img src={secondSlide1} alt="" />
+                                <img src={secondSlide2} alt="" />
+                                <img src={secondSlide3} alt="" />
+                                <img src={secondSlide4} alt="" />
+                                <img src={secondSlide5} alt="" />
+                                <img src={secondSlide6} alt="" />
                             </Carousel.Caption>
                         </Carousel.Item>
                         {/* third item */}
                         <Carousel.Item className='carousel3'>
                             <ExampleCarouselImage 
                             text="Third slide" 
-                            img={"src/assets/Images/Slider4/slider4.webp"}
+                            img={thirdSlide}
                             style={{
                                 width:'32rem',
                                 height:'30rem',

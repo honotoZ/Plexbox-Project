@@ -1,4 +1,6 @@
 import { IoMdArrowDropdown } from "react-icons/io";
+import plexLogo from '../assets/pleximg-removebg-preview.png';
+import profilePic from '../assets/googleprofileIMG-removebg-preview.png';
 
 function Navbar() {
     
@@ -6,7 +8,7 @@ function Navbar() {
         <>
             <div className='myContainer'>
                 <div className='icon'>
-                    <img className='logoImg' src="src/assets/pleximg-removebg-preview.png" alt="" />
+                    <img className='logoImg' src={plexLogo} alt="" />
                     <input
                     type="text"
                     className='searchIcon'
@@ -22,7 +24,7 @@ function Navbar() {
                     <div className='lineIcon'></div>
                     <button>Open Plex</button>
                     <div className='customDropdown'>
-                        <img className='profileImage' src="src/assets/googleprofileIMG-removebg-preview.png" alt="profileimage" />
+                        <img className='profileImage' src={profilePic} alt="profileimage" />
                         <span><IoMdArrowDropdown className="downarrow" style={{color:'white'}}/></span>
                     </div>
                 </div>
