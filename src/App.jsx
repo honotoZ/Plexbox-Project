@@ -4,6 +4,8 @@ import './App.css'
 import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import MainContent from './Components/MainContent';
+import SaveContent from './Components/SaveContent';
+import WatchContent from './Components/WatchContent';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Navbar/>
       <Header/>
       <MainContent/>
+      <SaveContent/>
+      <WatchContent/>
     </>
   )
 }
