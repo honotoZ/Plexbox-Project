@@ -6,6 +6,8 @@ import Header from './Components/Header';
 import MainContent from './Components/MainContent';
 import SaveContent from './Components/SaveContent';
 import WatchContent from './Components/WatchContent';
+import ExploreContent from './Components/ExploreContent';
+import ExtraContent from './Components/ExtraContent';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <MainContent/>
       <SaveContent/>
       <WatchContent/>
+      <ExploreContent/>
+      <ExtraContent/>
     </>
   )
 }
