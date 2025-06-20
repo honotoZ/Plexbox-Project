@@ -77,15 +77,6 @@ function MainContent() {
                         <img src={appStoreBadge} alt="apple store" />
                     </div>
                 </div>
-                <div className='save'>
-
-                </div>
-                <div className="watch">
-
-                </div>
-                <div className="explore">
-
-                </div>
             </div>
         </>
     )

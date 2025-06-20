@@ -561,17 +561,36 @@ body{
     color: white;
     font-weight: 400;
     padding: 3px;
-    height: 3rem;
-    /* border: 2px solid red; */
+    height: 2rem;
 }
 .save4 p{
-    text-align: justify;
-    width: 45rem;
-    height: 9rem;
-    font-size: 1.7rem;
-    font-weight: 600;
-    color: white;
     /* border: 2px solid red; */
+    text-align: justify;
+    width: 53rem;
+    height: 10rem;
+    font-size: 1.9rem;
+    font-weight: 670;
+    color: white;
+    position: relative;
+    &::before{
+        content: "\201C";
+        position: absolute;
+        font-size: 5.5rem;
+        left: 0px;
+        top: -80px;
+        color: rgba(128, 128, 128, 0.555);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    &::after{
+        content: "\201D";
+        position: absolute;
+        font-weight: bold;
+        font-size: 5.5rem;
+        bottom: -80px;
+        right: 0px;
+        color: rgba(128, 128, 128, 0.555);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
 .save4 span{
     text-align: center;
