@@ -5,6 +5,8 @@
 }
 body{
     min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
     background: linear-gradient(to bottom right,rgba(84, 13, 2, 0.87), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 .myContainer{
@@ -661,18 +663,19 @@ body{
     width: 26rem;
     height: 13rem;
     border-radius: 1.5rem;
+    max-width: 100%;
     position: relative;
     left: 65rem;
     bottom: 19rem;
     z-index: 2;
 }
 .select-service{
-    width: 35rem;
+    width: 37rem;
     height: 13rem;
     border-radius: 1.5rem;
     position: relative;
     bottom: 9.7rem;
-    right: 21rem;
+    right: 20rem;
     z-index: 1;
 }
 /* explore section */
@@ -682,7 +685,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8rem;
+    gap: 3rem;
+    /* border: 2px solid red; */
 }
 .explore-header{
     font-size: 18.5rem;
@@ -733,6 +737,8 @@ body{
     background-color: black;
     width: 100%;
     height: 60rem;
+    display: flex;
+    justify-content: center;
     position: relative;
     /* border: 2px solid red; */
 }
@@ -746,32 +752,32 @@ body{
     width: 23rem;
 }
 .img2{
-    width: 23.5rem;
+    width: 23.7rem;
     z-index: 1;
     position: absolute;
-    bottom: 45rem;
-    left: 16rem;
+    bottom: 28rem;
+    left: 15.5rem;
 }
 .img3{
-    width: 22.5rem;
+    width: 22.7rem;
     z-index: 1;
     position: absolute;
-    bottom: 21rem;
-    left: 18.7rem;
+    bottom: 5.1rem;
+    left: 18.5rem;
 }
 .img4{
     width: 21rem;
     z-index: 1;
     position: absolute;
-    left: 51rem;
-    bottom: 45rem;
+    left: 50rem;
+    bottom: 31rem;
 }
 .img5{
-    width: 23rem;
+    width: 23.5rem;
     z-index: 1;
     position: absolute;
-    left: 50rem;
-    bottom: 24rem;
+    left: 51rem;
+    bottom: 9rem;
 }
 
 /* extra */
@@ -780,6 +786,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
     height: 50rem;
     /* border: 2px solid red; */
 }
@@ -923,4 +930,5 @@ body{
     position: relative;
     top: 2rem;
 }
+
 
