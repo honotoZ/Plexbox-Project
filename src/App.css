@@ -44,7 +44,7 @@ body{
     background-repeat: no-repeat;
     background-size: 22px 23px;
     background-position: left center;
-    padding-left: 1.9rem;
+    padding-left: 1.9rem;   
 }
 .icon input:focus{
     outline: none;
@@ -83,12 +83,15 @@ body{
 .lastNav button{
     border: none;
     width: 6rem;
-    height: 2rem;
+    height: 1.7rem;
     font-size: 0.9rem;
     font-weight: 600;
     border-radius: 4px;
     background-color: rgb(248, 145, 20);
     cursor: pointer;
+}
+.lastNav button:hover{
+    background-color: rgb(228, 156, 69);
 }
 .customDropdown{
     display: flex;
@@ -1236,3 +1239,133 @@ body{
     font-weight: 500;
     text-align: justify;
 }
+
+/* Footer */
+.footer-container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    padding-top: 4%;
+    background-color: #45454567;
+}
+.footer-plex-img{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 35%;
+    height: 30%;
+    position: relative;
+    bottom: 2.7rem;
+    cursor: pointer;
+}
+.footer1{
+    /* border: 2px solid red; */
+    width: 57%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company h5{
+    font-size: 17px;
+}
+.company h5:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.company div{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.company div:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.premium{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.premium h5{
+    font-size: 17px;
+}
+.premium h5:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.premium div{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.premium div:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.downloads{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.downloads h5{
+    font-size: 17px;
+}
+.downloads h5:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.downloads div{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.downloads div:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.support h5{
+    font-size: 17px;
+}
+.support h5:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.support div{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.support div:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.watch-free{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.watch-free h5{
+    font-size: 17px;
+}
+.watch-free h5:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+.watch-free div{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+.watch-free div:hover{
+    cursor: pointer;
+    color: #deb212;
+}
+

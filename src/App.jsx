@@ -10,6 +10,7 @@ import ExploreContent from './Components/ExploreContent';
 import ExtraContent from './Components/ExtraContent';
 import QnAcontent from './Components/QnAcontent'
 import PlexBlog from './Components/PlexBlog';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <ExtraContent/>
       <QnAcontent/>
       <PlexBlog/>
+      <Footer/>
     </>
   )
 }
