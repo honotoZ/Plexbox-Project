@@ -1089,3 +1089,150 @@ body{
     cursor: pointer;
 }
 
+/* Plex Blog */
+.blog-container{
+    min-height: 80vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 3rem;
+}
+.blog-header{
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 2.5rem;
+    height: 6rem;
+    width: 100%;
+}
+.blog-group{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+    width: 100%;
+}
+.blog1{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background: url('https://www.plex.tv/wp-content/uploads/2025/03/Plex-iOS-Release-3-1024x576.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    isolation: isolate;
+}
+.blog1::after{
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    background: rgb(41, 39, 39);
+    inset: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+.date1{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 10%;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.blog-h1{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 45%;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.blog2{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background: url('https://www.plex.tv/wp-content/uploads/2025/03/heroplex-logo-tv-1024x576.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    isolation: isolate;
+}
+.blog2::after{
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    background: rgb(41, 39, 39);
+    inset: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+.date2{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 10%;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.blog-h2{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 45%;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.blog3{
+    position: relative;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background: url('https://www.plex.tv/wp-content/uploads/2025/01/Hero-Reviews-Blog-1024x576.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    isolation: isolate;
+}
+.blog3::after{
+    border-radius: 20px;
+    content: '';
+    position: absolute;
+    background: rgb(41, 39, 39);
+    inset: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+.date3{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 10%;
+    padding: 3px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.blog-h3{
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 30%;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: justify;
+}

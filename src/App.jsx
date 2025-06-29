@@ -9,6 +9,7 @@ import WatchContent from './Components/WatchContent';
 import ExploreContent from './Components/ExploreContent';
 import ExtraContent from './Components/ExtraContent';
 import QnAcontent from './Components/QnAcontent'
+import PlexBlog from './Components/PlexBlog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <ExploreContent/>
       <ExtraContent/>
       <QnAcontent/>
+      <PlexBlog/>
     </>
   )
 }
