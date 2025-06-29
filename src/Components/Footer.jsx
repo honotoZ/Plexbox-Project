@@ -1,4 +1,12 @@
 import React from 'react'
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
+import { PiButterflyFill } from "react-icons/pi";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io5";
+
 
 function Footer() {
 
@@ -60,6 +68,24 @@ function Footer() {
                         <div>Valentine's Day Movies</div>
                         <div>Christmas Movies</div>
                     </div>
+                </div>
+            </div>
+            <div className='footer2-container'>
+                <div className='copyright'>
+                    <div>Copyright © 2025 Plex</div>
+                    <div className='privacy'>Privacy & Legal</div>
+                    <div className='accessibility'>Accessibility</div>
+                    <div className='manage-cookies'>Manage Cookies</div>
+                    <div>Language: <span>English (US)</span></div>
+                </div>
+                <div className='footer-icons'>
+                    <FaInstagram className='instagram' />
+                    <FaTiktok className='tiktok'/>
+                    <BsTwitterX className='x'/>
+                    <PiButterflyFill className='butterfly'/>
+                    <FaFacebookF className='facebook'/>
+                    <FaLinkedinIn className='linkedin'/>
+                    <IoLogoYoutube className='youtube'/>
                 </div>
             </div>
         </>

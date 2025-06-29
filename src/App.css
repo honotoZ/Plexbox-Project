@@ -1141,6 +1141,10 @@ body{
     z-index: -1;
     opacity: 0.7;
 }
+.date1,
+.blog-h1 {
+    transition: transform 0.3s ease;
+}
 .date1{
     /* border: 2px solid red; */
     width: 70%;
@@ -1156,6 +1160,10 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
     text-align: justify;
+}
+.blog1:hover .date1,
+.blog1:hover .blog-h1 {
+    transform: translateY(-35px);
 }
 .blog2{
     position: relative;
@@ -1182,6 +1190,10 @@ body{
     z-index: -1;
     opacity: 0.7;
 }
+.date2,
+.blog-h2 {
+    transition: transform 0.3s ease;
+}
 .date2{
     /* border: 2px solid red; */
     width: 70%;
@@ -1197,6 +1209,10 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
     text-align: justify;
+}
+.blog2:hover .date2,
+.blog2:hover .blog-h2 {
+    transform: translateY(-35px);
 }
 .blog3{
     position: relative;
@@ -1223,6 +1239,10 @@ body{
     z-index: -1;
     opacity: 0.7;
 }
+.date3,
+.blog-h3 {
+    transition: transform 0.3s ease;
+}
 .date3{
     /* border: 2px solid red; */
     width: 70%;
@@ -1238,6 +1258,10 @@ body{
     font-size: 1.5rem;
     font-weight: 500;
     text-align: justify;
+}
+.blog3:hover .date3,
+.blog3:hover .blog-h3 {
+    transform: translateY(-35px);
 }
 
 /* Footer */
@@ -1369,3 +1393,47 @@ body{
     color: #deb212;
 }
 
+/* footer part 2 */
+.footer2-container{
+    border-top: rgba(255, 255, 255, 0.799);
+    height: 25vh;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    background-color: #45454567;
+}
+.copyright{
+    /* border: 2px solid red; */
+    width: 55%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.63);
+}
+.privacy:hover, .accessibility:hover, .manage-cookies:hover, div span:hover{
+    color: #deb212;
+    cursor: pointer;
+}
+.footer-icons{
+    /* border: 2px solid red; */
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.616);
+}
+.instagram:hover,
+.tiktok:hover,
+.x:hover,
+.butterfly:hover,
+.facebook:hover,
+.linkedin:hover,
+.youtube:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
