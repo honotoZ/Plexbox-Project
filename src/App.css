@@ -931,4 +931,161 @@ body{
     top: 2rem;
 }
 
+/* Questions and Answer */
+.QnA-container{
+    /* border: 2px solid red; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5%;
+    /* background-color: rgb(33, 31, 31); */
+    background-color: #0f0f0f3e;
+}
+.QnA-container .header{
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.qna1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna1-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna2-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna3{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna3-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna4{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna4-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna5{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna5-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna6{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna6-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna7{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna7-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna7 p span{
+    color: #deb212;
+}
+.qna7 p span:hover{
+    cursor: pointer;
+}
+.qna8{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    border-radius: 15px;
+    padding: 2%;
+    gap: 20px;
+    background-color: black;
+}
+.qna8-header{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qna8 p span{
+    color: #deb212;
+}
+.qna8 p span:hover{
+    cursor: pointer;
+}
 

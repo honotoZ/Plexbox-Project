@@ -8,6 +8,7 @@ import SaveContent from './Components/SaveContent';
 import WatchContent from './Components/WatchContent';
 import ExploreContent from './Components/ExploreContent';
 import ExtraContent from './Components/ExtraContent';
+import QnAcontent from './Components/QnAcontent'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WatchContent/>
       <ExploreContent/>
       <ExtraContent/>
+      <QnAcontent/>
     </>
   )
 }

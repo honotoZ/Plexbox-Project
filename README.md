@@ -17,3 +17,27 @@ d) Finally blog container containing 3 div boxes with its content.
 a) footer section will include 2 basic section: plex logo and 5 list items with their sub lists
 b) space between this 2 basic sections using space between.
 c) finally copyright and icons logo section (also using space between them) -->
+
+<!-- 
+Redux >>
+Material UI >>
+
+BoilerPlate >> remembering >> Redux Toolkit 
+
+configureStore >> configureStore()
+createSlice() >> createSlice()
+
+Slice is a part of Store
+    >> put all the slices in store
+    >> reducer:{
+    slicekey: sliceName >> userdefined || import it
+    }
+
+GO TO REACT
+Provider the Store to react (root component)
+Provider component >> App.jsx (Root Component)
+    <Provider store={store}>    ||  prop = prop value
+        <App/>
+    </Provider>
+
+-->
