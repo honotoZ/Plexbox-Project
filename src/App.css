@@ -10,6 +10,7 @@ body{
     background: linear-gradient(to bottom right,rgba(84, 13, 2, 0.87), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 .myContainer{
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,21 +18,25 @@ body{
     margin: 0.4rem;
     border-radius: 0.3rem;
     background-color: rgba(0, 0, 0, 0.585);
+    position: relative;
 }
 .icon{
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    margin-left: 0.5rem;
+    margin-left: 0.3rem;
     cursor: pointer;
+    height: 3rem;
+    width: 41%;
     position: relative;
 }
 .logoImg{
-    width: 4.3rem;
+    width: 4.4rem;
 }
 .icon input{
-    width: 27rem;
-    height: 2.5rem;
-    font-size: 1rem;
+    width: 80%;
+    height: 2.2rem;
+    font-size: 0.9rem;
     border: none;
     border-radius: 3rem;
     margin-left: 1rem;
@@ -39,8 +44,8 @@ body{
 }
 .searchLogo{
     position: absolute;
-    width: 4%;
-    left: 5.9rem;
+    width: 3.5%;
+    left: 16.5%;
     filter: invert(1);
 }
 .icon input::placeholder{
@@ -51,7 +56,7 @@ body{
 .icon input:focus{
     outline: none;
     background-color: white;
-    padding-left: 4.7rem;
+    padding-left: 13.5%;
 }
 .icon:has(input:focus) .searchLogo {
   filter: invert(0); /* turns it black */
@@ -62,34 +67,33 @@ body{
 .icon:has(input:focus) span{
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 2px;
     color: black;
     position: absolute;
-    left: 7.5rem;
+    left: 21.5%;
 }
 .listItems{
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 27rem;
-    height: 3rem;
+    width: 27%;
     list-style-type: none;
     font-size: 0.9rem;
-    font-weight: 570;
+    font-weight: 575;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.799);
     cursor: pointer;
-    position: relative;
-    left: 7rem;
-    /* border: 2px solid red; */
+    position: absolute;
+    left: 57.7%;
 }
 .lastNav{
+    /* border: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 13rem;
+    width: 14%;
     height: 3rem;
-    /* border: 2px solid green; */
 }
 .lineIcon{
     width: 1px;
@@ -121,8 +125,8 @@ body{
     font-size: 1.5rem;
 }
 .profileImage{
-    height: 40px;
-    width: 40px;
+    height: 2.3rem;
+    width: 60%;
     border-radius: 50%;
     background-color: rgb(180, 122, 86);
     cursor: pointer;
