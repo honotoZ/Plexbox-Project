@@ -1,6 +1,7 @@
 import { IoMdArrowDropdown } from "react-icons/io";
 import plexLogo from '../assets/pleximg-removebg-preview.png';
 import profilePic from '../assets/googleprofileIMG-removebg-preview.png';
+import { FaCaretDown } from "react-icons/fa";
 
 function Navbar() {
     
@@ -13,6 +14,8 @@ function Navbar() {
                     type="text"
                     className='searchIcon'
                     placeholder="Find Movies & TV"/>
+                    <img className="searchLogo" src="src/assets/magnifying-glass-1976105_1280-removebg-preview.png" alt="" />
+                    <span>All <FaCaretDown /></span>
                 </div>
                 <div className="listItems">
                     <div>Free Movies & TV</div>

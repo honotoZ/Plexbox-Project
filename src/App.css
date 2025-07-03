@@ -23,6 +23,7 @@ body{
     align-items: center;
     margin-left: 0.5rem;
     cursor: pointer;
+    position: relative;
 }
 .logoImg{
     width: 4.3rem;
@@ -34,21 +35,37 @@ body{
     border: none;
     border-radius: 3rem;
     margin-left: 1rem;
-    padding: 5px;
     background-color: rgba(76, 60, 60, 0.521);
 }
+.searchLogo{
+    position: absolute;
+    width: 4%;
+    left: 5.9rem;
+    filter: invert(1);
+}
 .icon input::placeholder{
-    color: rgba(255, 255, 255, 0.961);
+    color: rgba(255, 255, 255, 0.970);
     opacity: 0.6;
-    background-image: url("src/assets/magnifying-glass-1976105_1280-removebg-preview.png");
-    background-repeat: no-repeat;
-    background-size: 22px 23px;
-    background-position: left center;
-    padding-left: 1.9rem;   
+    padding-left: 2.5rem;
 }
 .icon input:focus{
     outline: none;
     background-color: white;
+    padding-left: 4.7rem;
+}
+.icon:has(input:focus) .searchLogo {
+  filter: invert(0); /* turns it black */
+}
+.icon span{
+    display: none;
+}
+.icon:has(input:focus) span{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: black;
+    position: absolute;
+    left: 7.5rem;
 }
 .listItems{
     display: flex;
