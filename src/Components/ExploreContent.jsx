@@ -1,4 +1,5 @@
 import React from 'react'
+import img1 from '../assets/M-profile-screen.webp'
 import img2 from '../assets/M-home-watchlist-02-21.webp'
 import img3 from '../assets/M-home-watched-02-21.webp'
 import img4 from '../assets/M-home-share-02-21.webp'
@@ -24,7 +25,7 @@ function ExploreContent() {
                 </div>
                 <div className='explore-end'>
                     <div className='img1-container'>
-                        <img className='img1' src="src/assets/M-profile-screen.webp" alt="" />
+                        <img className='img1' src={img1} alt="main-image" />
                     </div>
                     <img className='img2' src={img2} alt="" />
                     <img className='img3' src={img3} alt="" />
