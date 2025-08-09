@@ -2,9 +2,10 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import plexLogo from '../assets/pleximg-removebg-preview.png';
 import profilePic from '../assets/googleprofileIMG-removebg-preview.png';
 import { FaCaretDown } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar() {
-    
+
     return (
         <>
             <div className='myContainer'>
@@ -12,7 +13,7 @@ function Navbar() {
                     <img className='logoImg' src={plexLogo} alt="" />
                     <input
                     type="text"
-                    className='searchIcon'
+                    // className='searchIcon'
                     placeholder="Find Movies & TV"/>
                     <img className="searchLogo" src="src/assets/magnifying-glass-1976105_1280-removebg-preview.png" alt="" />
                     <span>All <FaCaretDown /></span>
@@ -31,6 +32,7 @@ function Navbar() {
                         <span><IoMdArrowDropdown className="downarrow" style={{color:'white'}}/></span>
                     </div>
                 </div>
+                <GiHamburgerMenu className="hamburger" />                
             </div>
         </>
     )

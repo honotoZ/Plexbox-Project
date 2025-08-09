@@ -38,10 +38,10 @@ function ExtraContent() {
                 <div className='card'>
                     <div className='card-text'>
                         <h4>Streaming</h4>
-                        <h5>Is Believing</h5>
+                        <h5>Is Believing <img src={chevronImg} alt="" /></h5>
                     </div>
                     <div className='card-image'>
-                        <img src={chevronImg} alt="" />
+                        
                     </div>
                     <button>Get Plex Free</button>
                 </div>

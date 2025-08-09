@@ -10,11 +10,11 @@ body{
     background: linear-gradient(to bottom right,rgba(84, 13, 2, 0.87), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 .myContainer{
-    /* border: 2px solid blue; */
+    /* border: 2px solid plum; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 3.3rem;
+    height: 3.5rem;
     margin: 0.4rem;
     border-radius: 0.3rem;
     background-color: rgba(0, 0, 0, 0.585);
@@ -24,19 +24,17 @@ body{
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    margin-left: 0.3rem;
     cursor: pointer;
-    height: 3rem;
-    width: 41%;
+    width: 40%;
     position: relative;
 }
 .logoImg{
-    width: 4.4rem;
+    width: 13%;
 }
 .icon input{
-    width: 80%;
-    height: 2.2rem;
-    font-size: 0.9rem;
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 0.97rem;
     border: none;
     border-radius: 3rem;
     margin-left: 1rem;
@@ -44,14 +42,14 @@ body{
 }
 .searchLogo{
     position: absolute;
-    width: 3.5%;
-    left: 16.5%;
+    width: 3.3%;
+    left: 17.3%;
     filter: invert(1);
 }
 .icon input::placeholder{
     color: rgba(255, 255, 255, 0.970);
     opacity: 0.6;
-    padding-left: 2.5rem;
+    padding-left: 1.7rem;
 }
 .icon input:focus{
     outline: none;
@@ -67,7 +65,7 @@ body{
 .icon:has(input:focus) span{
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 0.3rem;
     color: black;
     position: absolute;
     left: 21.5%;
@@ -85,52 +83,179 @@ body{
     color: rgba(255, 255, 255, 0.799);
     cursor: pointer;
     position: absolute;
-    left: 57.7%;
+    left: 56.5%;
 }
 .lastNav{
     /* border: 2px solid green; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 14%;
-    height: 3rem;
+    width: 15%;
 }
 .lineIcon{
-    width: 1px;
-    height: 2rem;
+    width: 1.3px;
+    height: 30px;
     background-color: rgba(255, 255, 255, 0.173);
-    margin: 0 5px;
+    margin-right: 13px;
 }
 .lastNav button{
     border: none;
-    width: 6rem;
-    height: 1.7rem;
-    font-size: 0.9rem;
+    width: 100px;
+    font-size: 0.9em;
     font-weight: 600;
     border-radius: 4px;
-    background-color: rgb(248, 145, 20);
+    background-color: rgb(213, 157, 2);
     cursor: pointer;
 }
 .lastNav button:hover{
     background-color: rgb(228, 156, 69);
 }
 .customDropdown{
+    /* border: 2px solid pink; */
+    width: 40%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.profileImage{
+    width: 43%;
+    border-radius: 50%;
+    background-color: rgb(180, 122, 86);
     cursor: pointer;
 }
 .customDropdown .downarrow{
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
-.profileImage{
-    height: 2.3rem;
-    width: 60%;
-    border-radius: 50%;
-    background-color: rgb(180, 122, 86);
-    cursor: pointer;
-}
+.hamburger{
+    display: none;  
+    }
+
+    /* .myContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3.3rem;
+        margin: 0.4rem;
+        border-radius: 0.3rem;
+        background-color: rgba(0, 0, 0, 0.585);
+        position: relative;
+    }
+    .icon{
+        display: flex;
+        align-items: center;
+        margin-left: 0.3rem;
+        cursor: pointer;
+        height: 3rem;
+        width: 41%;
+        position: relative;
+    }
+    .logoImg{
+        width: 4.4rem;
+    }
+    .icon input{
+        width: 80%;
+        height: 2.2rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 3rem;
+        margin-left: 1rem;
+        background-color: rgba(76, 60, 60, 0.521);
+    }
+    .searchLogo{
+        position: absolute;
+        width: 0.5%;
+        left: 16.5%;
+        filter: invert(1);
+    }
+    .icon input::placeholder{
+        color: rgba(255, 255, 255, 0.970);
+        opacity: 0.6;
+        padding-left: 2.5rem;
+    }
+    .icon input:focus{
+        outline: none;
+        background-color: white;
+        padding-left: 13.5%;
+    }
+    .icon:has(input:focus) .searchLogo {
+    filter: invert(0); 
+    }
+    .icon span{
+        display: none;
+    }
+    .icon:has(input:focus) span{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        color: black;
+        position: absolute;
+        left: 21.5%;
+    }
+    .listItems{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 27%;
+        list-style-type: none;
+        font-size: 0.9rem;
+        font-weight: 575;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(255, 255, 255, 0.799);
+        cursor: pointer;
+        position: absolute;
+        left: 57.7%;
+    }
+    .lastNav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 14%;
+        height: 3rem;
+    }
+    .lineIcon{
+        width: 1px;
+        height: 2rem;
+        background-color: rgba(255, 255, 255, 0.173);
+        margin: 0 5px;
+    }
+    .lastNav button{
+        border: none;
+        width: 6rem;
+        height: 1.7rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border-radius: 4px;
+        background-color: rgb(248, 145, 20);
+        cursor: pointer;
+    }
+    .lastNav button:hover{
+        background-color: rgb(228, 156, 69);
+    }
+    .customDropdown{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .customDropdown .downarrow{
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .profileImage{
+        height: 2.3rem;
+        width: 60%;
+        border-radius: 50%;
+        background-color: rgb(180, 122, 86);
+        cursor: pointer;
+    } */
+    /* .hamburger{
+        display: none;
+    } */
+
+/* header section */
 .pageHeader{
     display: flex;
     flex-direction: column;
@@ -773,35 +898,35 @@ body{
     align-items: center;
 }
 .img1{
-    width: 23rem;
+    width: 380px;
 }
 .img2{
     width: 23.7rem;
     z-index: 1;
     position: absolute;
     bottom: 28rem;
-    left: 15.5rem;
+    left: 15.2rem;
 }
 .img3{
     width: 22.7rem;
     z-index: 1;
     position: absolute;
-    bottom: 5.1rem;
-    left: 18.5rem;
+    bottom: 5.2rem;
+    left: 18.1rem;
 }
 .img4{
     width: 21rem;
     z-index: 1;
     position: absolute;
-    left: 50rem;
-    bottom: 31rem;
+    left: 51rem;
+    bottom: 30.5rem;
 }
 .img5{
-    width: 23.5rem;
+    width: 23rem;
     z-index: 1;
     position: absolute;
-    left: 51rem;
-    bottom: 9rem;
+    left: 51.8rem;
+    bottom: 8.7rem;
 }
 
 /* extra */
@@ -811,7 +936,7 @@ body{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    height: 50rem;
+    height: 46rem;
     /* border: 2px solid red; */
 }
 .extra-text{
@@ -915,33 +1040,30 @@ body{
 }
 .card{
     width: 67rem;
-    height: 37rem;
+    height: 33rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     background-image:
         linear-gradient(to bottom right, purple , transparent 70%),
         linear-gradient(to bottom left, rgb(165, 41, 90) , transparent 70%),
         linear-gradient(to top right, dodgerblue , transparent 70%),
         linear-gradient(to top left, rgb(9, 62, 195) , transparent 70%);
 }
-.card-text{
-    /* border:2px solid red; */
-}
 .card-text h4{
+    text-align: center;
     font-size: 8rem;
     font-weight: bold;
     color: aliceblue;
 }
 .card-text h5{
-    font-size: 7.5rem;
+    font-size: 8rem;
     font-weight: bold;
     color: #f5c518;
 }
-.card-image img{
-    width: 4rem;
+.card-text img{
+    width: 3rem;
     height: 4.5rem;
 }
 .card button{
@@ -972,7 +1094,7 @@ body{
     font-size: 2.5rem;
     font-weight: 550;
 }
-.qna1{
+.qna{
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -982,136 +1104,13 @@ body{
     gap: 20px;
     background-color: black;
 }
-.qna1-header{
+.qna-header{
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     cursor: pointer;
 }
-.qna2{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna2-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna3{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna3-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna4{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna4-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna5{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna5-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna6{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna6-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna7{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna7-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna7 p span{
-    color: #deb212;
-}
-.qna7 p span:hover{
-    cursor: pointer;
-}
-.qna8{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    width: 85%;
-    border-radius: 15px;
-    padding: 2%;
-    gap: 20px;
-    background-color: black;
-}
-.qna8-header{
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-.qna8 p span{
-    color: #deb212;
-}
-.qna8 p span:hover{
-    cursor: pointer;
-}
+
 
 /* Plex Blog */
 .blog-container{
@@ -1458,3 +1457,4 @@ body{
     cursor: pointer;
     background-color: transparent;
 }
+
