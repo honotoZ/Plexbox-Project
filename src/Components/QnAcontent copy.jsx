@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
 
 function QnAcontent() {
+
+
+    // Redo this component >> 1 state variable + 1 card >>
+    // create a array of objects
+    
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen2, setIsOpen2]=useState(false);
     const [isOpen3,setIsOpen3]=useState(false);

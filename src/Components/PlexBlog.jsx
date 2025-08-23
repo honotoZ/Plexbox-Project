@@ -7,6 +7,7 @@ function PlexBlog() {
             <div className='blog-container'>
                 <h5 className='blog-header d-flex justify-content-center align-items-center'>Plex Blog</h5>
                 <div className='blog-group'>
+                    {/* You should not repeat  > React */}
                     <div className='blog1'>
                         <div className='date1'>March 31, 2025</div>
                         <div className='blog-h1'>It's Go Time: The New Plex Experience Is Here</div>
