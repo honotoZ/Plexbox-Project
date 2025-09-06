@@ -1136,7 +1136,7 @@ body{
     height: 50vh;
     width: 100%;
 }
-.blog1{
+/* .blog1{
     position: relative;
     width: 30%;
     height: 90%;
@@ -1151,7 +1151,7 @@ body{
     align-items: center;
     justify-content: end;
     isolation: isolate;
-}
+} */
 .blog1::after{
     border-radius: 20px;
     content: '';
@@ -1185,7 +1185,7 @@ body{
 .blog1:hover .blog-h1 {
     transform: translateY(-35px);
 }
-.blog2{
+/* .blog2{
     position: relative;
     width: 30%;
     height: 90%;
@@ -1209,7 +1209,8 @@ body{
     inset: 0;
     z-index: -1;
     opacity: 0.7;
-}
+} */
+
 .date2,
 .blog-h2 {
     transition: transform 0.3s ease;
@@ -1234,7 +1235,7 @@ body{
 .blog2:hover .blog-h2 {
     transform: translateY(-35px);
 }
-.blog3{
+/* .blog3{
     position: relative;
     width: 30%;
     height: 90%;
@@ -1258,7 +1259,8 @@ body{
     inset: 0;
     z-index: -1;
     opacity: 0.7;
-}
+} */
+
 .date3,
 .blog-h3 {
     transition: transform 0.3s ease;
@@ -1305,7 +1307,6 @@ body{
     cursor: pointer;
 }
 .footer1{
-    /* border: 2px solid red; */
     width: 57%;
     height: 80%;
     display: flex;
@@ -1332,86 +1333,6 @@ body{
     cursor: pointer;
     color: #deb212;
 }
-.premium{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.premium h5{
-    font-size: 17px;
-}
-.premium h5:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.premium div{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-}
-.premium div:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.downloads{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.downloads h5{
-    font-size: 17px;
-}
-.downloads h5:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.downloads div{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-}
-.downloads div:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.support{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.support h5{
-    font-size: 17px;
-}
-.support h5:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.support div{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-}
-.support div:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.watch-free{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.watch-free h5{
-    font-size: 17px;
-}
-.watch-free h5:hover{
-    cursor: pointer;
-    color: #deb212;
-}
-.watch-free div{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 13px;
-}
-.watch-free div:hover{
-    cursor: pointer;
-    color: #deb212;
-}
 
 /* footer part 2 */
 .footer2-container{
@@ -1433,7 +1354,7 @@ body{
     align-items: center;
     color: rgba(255, 255, 255, 0.63);
 }
-.privacy:hover, .accessibility:hover, .manage-cookies:hover, div span:hover{
+.copyrightSection:hover{
     color: #deb212;
     cursor: pointer;
 }
@@ -1447,13 +1368,7 @@ body{
     font-size: 30px;
     color: rgba(255, 255, 255, 0.616);
 }
-.instagram:hover,
-.tiktok:hover,
-.x:hover,
-.butterfly:hover,
-.facebook:hover,
-.linkedin:hover,
-.youtube:hover{
+.socialIcons:hover{
     cursor: pointer;
     background-color: transparent;
 }

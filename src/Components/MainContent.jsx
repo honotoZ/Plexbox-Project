@@ -18,11 +18,11 @@ function MainContent() {
             return (
               <div className="appstore1">
                 <div className="appstoreA">
-                  <Icon className="android" />
+                  <Icon className="android"/>
                   <span>App Store</span>
                 </div>
                 <div className="appstoreB">
-                   {Array(4).fill(<FaStar className="star" />)}                  
+                  {Array(4).fill(<FaStar className="star" />)}                  
                   <FaStarHalfAlt className="halfstar" />
                 </div>
                 <div className="appstoreC">

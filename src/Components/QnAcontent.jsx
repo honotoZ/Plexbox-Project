@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { FaPlus } from "react-icons/fa6";
-
 import { faqQuestions } from '../utils/constant';
 
 function QnAcontent() {

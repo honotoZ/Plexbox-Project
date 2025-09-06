@@ -1,4 +1,5 @@
 import React from 'react'
+import {PlexBlog1} from '../utils/constant'
 
 function PlexBlog() {
 
@@ -8,18 +9,31 @@ function PlexBlog() {
                 <h5 className='blog-header d-flex justify-content-center align-items-center'>Plex Blog</h5>
                 <div className='blog-group'>
                     {/* You should not repeat  > React */}
-                    <div className='blog1'>
-                        <div className='date1'>March 31, 2025</div>
-                        <div className='blog-h1'>It's Go Time: The New Plex Experience Is Here</div>
-                    </div>
-                    <div className='blog2'>
-                        <div className='date2'>March 19, 2025</div>
-                        <div className='blog-h2'>Important 2025 Plex Updates</div>
-                    </div>
-                    <div className='blog3'>
-                        <div className='date3'>January 22, 2025</div>
-                        <div className='blog-h3'>New Year. Same Mission.</div>
-                    </div>
+                    {
+                        PlexBlog1.map((element)=>(
+                            <>
+                                <div className='blog1' style={{
+                                    position: 'relative',
+                                    width: '30%',
+                                    height: '90%',
+                                    borderRadius: '20px',
+                                    background: `url(${element.img})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    color: 'white',
+                                    cursor: 'pointer',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    justifyContent: 'end',
+                                    isolation: 'isolate'
+                                }}>
+                                    <div className='date1'>{element.date}</div>
+                                    <div className='blog-h1'>{element.blog}</div>
+                                </div>
+                            </>
+                        ))
+                    }
                 </div>
             </div>
         </>

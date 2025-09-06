@@ -2,6 +2,9 @@ import { ImAndroid } from "react-icons/im";
 import { FaApple } from "react-icons/fa";
 import { SiRoku } from "react-icons/si";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
+import img1 from "../assets/Plex-iOS-Release-3-1024x576.jpg"
+import img2 from "../assets/heroplex-logo-tv-1024x576.jpg"
+import img3 from "../assets/Hero-Reviews-Blog-1024x576.jpg"
 
 export const faqQuestions = [
   {
@@ -46,7 +49,59 @@ export const faqQuestions = [
   },
 ]
 
-export const FooterSection = []
+export const FooterSection = [
+  {
+    header:"Company",
+    subFooter1:"About",
+    subFooter2:"Careers",
+    subFooter3:"Our Culture",
+    subFooter4:"Giving",
+    subFooter5:"Partners",
+    subFooter6:"News",
+    subFooter7:"Plex Gear",
+    subFooter8:"The Plex Blog",
+    subFooter9:"Advertise With Us"
+  },
+  {
+    header:"Go Premium",
+    subFooter1:"Plans",
+    subFooter2:"Plexamp",
+    subFooter3:"Plex Labs",
+    subFooter4:"Get Perks"
+  },
+  {
+    header:"Downloads",
+    subFooter1:"Plex Media Server",
+    subFooter2:"Plex",
+    subFooter3:"Plexamp",
+    subFooter4:"Plex Photos",
+    subFooter5:"Plex Dash",
+    subFooter6:"Where to Watch"
+  },
+  {
+    header:"Support",
+    subFooter1:"Finding Help",
+    subFooter2:"Support Library",
+    subFooter3:"Community Forums",
+    subFooter4:"Community Guidelines",
+    subFooter5:"Billing Questions",
+    subFooter6:"Status",
+    subFooter7:"Bug Bounty",
+    subFooter8:"CordCutter",
+    subFooter9:"Get in Touch"
+  },
+  {
+    header:"Watch Free",
+    subFooter1:"Discover on Plex",
+    subFooter2:"TV Channel Finder",
+    subFooter3:"What to Watch",
+    subFooter4:"What to Watch on Netflix",
+    subFooter5:"What to Watch on hulu",
+    subFooter6:"A24 Movies",
+    subFooter7:"Valentine's Day Movies",
+    subFooter8:"Christmas Movies"
+  }
+]
 
 export const storeRatings = [
   {
@@ -66,4 +121,20 @@ export const storeRatings = [
   },
 ]
 
-export const PlexBlog = []
+export const PlexBlog1 = [
+  {
+    img:img1,
+    date:"March 31, 2025",
+    blog:"It's Go Time: The New Plex Experience Is Here"
+  },
+  {
+    img:img2,
+    date:"March 19, 2025",
+    blog:"Important 2025 Plex Updates"
+  },
+  {
+    img:img3,
+    date:"January 22, 2025",
+    blog:"New Year. Same Mission."
+  }
+]
