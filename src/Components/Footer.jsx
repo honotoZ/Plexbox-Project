@@ -7,6 +7,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
 import { FooterSection } from '../utils/constant';
+import plexLogo from '../assets/plex-logo.svg'
 
 
 function Footer() {
@@ -15,7 +16,7 @@ function Footer() {
         <>
             <div className='footer-container'>
                 <div className='plex-image'>
-                    <img className='footer-plex-img' src="src/assets/plex-logo.svg" alt="plex-img" />
+                    <img className='footer-plex-img' src={plexLogo} alt="plex-img" />
                 </div>
                 <div className='footer1'>
                         {
