@@ -10,9 +10,9 @@ function WatchContent() {
             <div className='watch-container'>
                 <div className='watch-header'>
                     <h1>Watch</h1>
-                    <h5>It's a great day to discover.</h5>
                 </div>
                 <div className='watch-body'>
+                    <h5>It's a great day to discover.</h5>
                     <p>Select from the best streaming services 
                     (like <span>Hulu</span>, <span>Netflix</span>, Max, and Disney+) to discover 
                     more, search faster, and get curated recommendations—all 

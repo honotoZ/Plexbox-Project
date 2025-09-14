@@ -9,9 +9,13 @@ import secondSlide4 from '../assets/Images/Slider2/slider2-4.avif'
 import secondSlide5 from '../assets/Images/Slider2/slider2-5.avif'
 import secondSlide6 from '../assets/Images/Slider2/slider2-6.avif'
 import thirdSlide from '../assets/Images/Slider4/slider4.webp'
+import { useState } from 'react';
 
 function Header() {
-    
+    const [index, setIndex] = useState(0);
+    const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+    };
     return (
         <>
             <div className='pageHeader'>
@@ -19,21 +23,21 @@ function Header() {
                     <h2>Meet your TV concierge.</h2>
                     <p>Need something to watch? We’re on it. 
                     Plex combines free movies & TV with the best 
-                    free streaming services, so there’s always more 
+                    free streaming services, so there’s always more
                     to discover.</p>
                     <button>Start Streaming</button>
                 </div>
                 <div className='carousel-container'>
                     <div className="top-bar">
                         <div className="carousel-navItems">
-                            <span>Discover</span>
-                            <span>Movies & Shows</span>
-                            <span>Live TV</span>
-                            <span>Your Media</span>
-                            <span>Your Music</span>
+                            <span onClick={()=>{setIndex(0)}}>Discover</span>
+                            <span onClick={()=>{setIndex(1)}}>Movies & Shows</span>
+                            <span onClick={()=>{setIndex(2)}}>Live TV</span>
+                            <span onClick={()=>{setIndex(3)}}>Your Media</span>
+                            <span onClick={()=>{setIndex(4)}}>Your Music</span>
                         </div>
                     </div>
-                    <Carousel className='carousel-box'>
+                    <Carousel className='carousel-box' activeIndex={index} onSelect={handleSelect}>
                         {/* first slide */}
                         <Carousel.Item>
                             <div className="carousel1">
@@ -85,6 +89,42 @@ function Header() {
                             </Carousel.Caption>
                         </Carousel.Item>
                         {/* third item */}
+                        <Carousel.Item className='carousel3'>
+                            <ExampleCarouselImage 
+                            text="Third slide" 
+                            img={thirdSlide}
+                            style={{
+                                width:'32rem',
+                                height:'30rem',
+                                position:'relative',
+                                left:"14rem",
+                                top:"2rem"
+                            }}
+                            />
+                            <Carousel.Caption className='slider3'>
+                            <h3>Bring your media to the pro side.</h3>
+                            <p>There's a lot of option's out there for storing your media. But if your looking to organize, stream, and share it in the most beautiful way possible, Plex is your app.</p>
+                            <button>Get Plex Media Server</button>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item className='carousel3'>
+                            <ExampleCarouselImage 
+                            text="Third slide" 
+                            img={thirdSlide}
+                            style={{
+                                width:'32rem',
+                                height:'30rem',
+                                position:'relative',
+                                left:"14rem",
+                                top:"2rem"
+                            }}
+                            />
+                            <Carousel.Caption className='slider3'>
+                            <h3>Bring your media to the pro side.</h3>
+                            <p>There's a lot of option's out there for storing your media. But if your looking to organize, stream, and share it in the most beautiful way possible, Plex is your app.</p>
+                            <button>Get Plex Media Server</button>
+                            </Carousel.Caption>
+                        </Carousel.Item>
                         <Carousel.Item className='carousel3'>
                             <ExampleCarouselImage 
                             text="Third slide" 
