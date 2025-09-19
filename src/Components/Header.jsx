@@ -104,22 +104,22 @@ function Header() {
           activeIndex={index}
           onSelect={handleSelect}
         >
-          {slides.map((slide, idx) => (
-            <Carousel.Item key={idx} className={`carousel${idx + 1}`}>
+          {slides.map((element, index) => (
+            <Carousel.Item key={index} className={`carousel${index + 1}`}>
               <ExampleCarouselImage
-                text={slide.text}
-                img={slide.img}
-                style={slide.style}
+                text={element.text}
+                img={element.img}
+                style={element.style}
               />
-              <Carousel.Caption className={slide.captionClass}>
-                <h3>{slide.title}</h3>
-                <p>{slide.desc}</p>
-                <button>{slide.btn}</button>
+              <Carousel.Caption className={element.captionClass}>
+                <h3>{element.title}</h3>
+                <p>{element.desc}</p>
+                <button>{element.btn}</button>
               </Carousel.Caption>
 
-              {slide.extraImgs && (
+              {element.extraImgs && (
                 <Carousel.Caption className='slider2A'>
-                  {slide.extraImgs.map((extra, i) => (
+                  {element.extraImgs.map((extra, i) => (
                     <img key={i} src={extra} alt='' />
                   ))}
                 </Carousel.Caption>

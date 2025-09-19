@@ -3,12 +3,15 @@ import plexLogo from '../assets/pleximg-removebg-preview.png';
 import profilePic from '../assets/googleprofileIMG-removebg-preview.png';
 import { FaCaretDown } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
+import ScrollWrapper from "./ScrollWrapper";
 
 function Navbar() {
 
     return (
         <>
             <div className='myContainer'>
+                {/* <ScrollWrapper animation="fade-right" delay={400}> <h1 style={{color:'white'}}>Hello World </h1>  </ScrollWrapper>      */}
+
                 <div className='icon'>
                     <img className='logoImg' src={plexLogo} alt="" />
                     <input
